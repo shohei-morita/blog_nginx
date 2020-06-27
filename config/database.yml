@@ -83,3 +83,4 @@ production:
   database: blog_nginx_production
   username: blog_nginx
   password: <%= ENV['BLOG_NGINX_DATABASE_PASSWORD'] %>
+  port: 5432
